@@ -11,16 +11,32 @@ body {
   font-family: 'Noto Serif';
   color: var(--secondary);
 }
-.App {
+.app {
   max-width: 960px;
   margin: 0 auto;
 }
-.title h1 {
+ion-icon {
+  color: var(--primary);
+  font-size: 20px;
+}
+
+.title-container {
+  display: block;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav h1 {
   color: var(--primary);
   font-size: 1.2rem;
   letter-spacing: 2px;
   font-weight: normal;
 }
+
 .title h2,
 .title p {
   text-align: center;

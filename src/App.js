@@ -9,7 +9,7 @@ function App() {
   const [selectedImg, setSelectedImg] = useState(null);
 
   return (
-    <div className="App">
+    <div className="app">
       <Title />
       <UploadForm />
       <ImageGrid setSelectedImg={setSelectedImg} />

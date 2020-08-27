@@ -18,6 +18,7 @@ const ImageGrid = ({ setSelectedImg }) => {
             }}
             whileHover={{
               opacity: 1,
+              scale: 1.1,
             }}
             layout
           >
